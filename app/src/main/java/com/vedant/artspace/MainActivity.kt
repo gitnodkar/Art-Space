@@ -88,6 +88,7 @@ fun ArtImageAndText(title: Int, artist: Int, drawableResource: Int, artDescripti
             text = stringResource(title),
             fontSize = 36.sp,
             fontWeight = FontWeight.SemiBold,
+            lineHeight = 40.sp,
             modifier = Modifier.padding(top = 16.dp)
         )
 
@@ -104,26 +105,27 @@ fun ArtImageAndText(title: Int, artist: Int, drawableResource: Int, artDescripti
         )
 
         Spacer(modifier = Modifier.height(100.dp))
-        Row(modifier = Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.SpaceBetween){
 
-            Button(onClick = OnPreviousClick, shape = RoundedCornerShape(16.dp),
-                colors = ButtonDefaults.buttonColors(containerColor = Color.LightGray),
-                modifier = Modifier
-            ) {
-                Text(text = "Previous")
+    }
+    Row(modifier = Modifier.fillMaxWidth().padding(bottom = 16.dp), verticalAlignment = Alignment.Bottom, horizontalArrangement = Arrangement.SpaceEvenly){
 
-            }
-            Button(
-                onClick = OnNextClick,
-                shape = RoundedCornerShape(16.dp),
-                colors = ButtonDefaults.buttonColors(containerColor = Color.LightGray),
-                modifier = Modifier
-            ) {
-                Text(text = "Next")
-
-            }
+        Button(onClick = OnPreviousClick, shape = RoundedCornerShape(16.dp),
+            colors = ButtonDefaults.buttonColors(containerColor = Color.LightGray),
+            modifier = Modifier
+        ) {
+            Text(text = "Previous")
 
         }
+        Button(
+            onClick = OnNextClick,
+            shape = RoundedCornerShape(16.dp),
+            colors = ButtonDefaults.buttonColors(containerColor = Color.LightGray),
+            modifier = Modifier
+        ) {
+            Text(text = "Next")
+
+        }
+
     }
 }
 
@@ -239,55 +241,6 @@ fun ArtSpaceApp(modifier: Modifier = Modifier) {
         }
     }
 }
-
-    /*
-@Composable
-fun ArtImageAndText(
-    title: Int,
-    artist: Int,
-    drawableResource: Int,
-    artDescription: Int,
-    modifier: Modifier = Modifier,
-    OnNextClick: () -> Unit,
-){
-    Column(
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Center,
-        modifier = Modifier
-            .fillMaxSize()
-            .paint(
-                painter = painterResource(R.drawable.background),
-                contentScale = ContentScale.Crop
-            )
-    ) {
-
-        Image(painter = painterResource(drawableResource), contentDescription = null )
-        
-        Text(text = stringResource(title), fontSize = 32.sp, fontWeight = FontWeight.SemiBold)
-        
-        Text(text = stringResource(artist))
-
-        Text(text = stringResource(artDescription))
-    }
-
-    Spacer(modifier = Modifier.height(100.dp))
-
-
-    Column(
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Bottom,
-        modifier = Modifier
-    ) {
-        Button(
-            onClick = OnNextClick,
-            shape = RoundedCornerShape(16.dp),
-            colors = ButtonDefaults.buttonColors(containerColor = Color.LightGray)
-        ) { Text(text = "Next")
-        }
-    }
-}
-*/
-
 
 @Preview(showBackground = true)
 @Composable
