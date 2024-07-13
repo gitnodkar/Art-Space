@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Art Space</string>
+    <string name="title1">Mona Lisa</string>
+    <string name="title2">Creation Of Adam</string>
+    <string name="title3">Girl with a Pearl Earring</string>
+    <string name="title4">The Great Wave off Kanagawa</string>
+    <string name="title5">Liberty Leading the People</string>
+    <string name="title6">Napoleon Crossing the Alps</string>
+    <string name="title7">Nighthawks</string>
+    <string name="title8">The Starry Night</string>
+    <string name="title9">Wanderer above the Sea of Fog</string>
+    <string name="title10">Hamsa Damayanti</string>
+    <string name="artist1">Leonardo Da Vinci</string>
+    <string name="artist2">Michelangelo</string>
+    <string name="artist3">Johannes Vermeer</string>
+    <string name="artist4">Hokusai</string>
+    <string name="artist5">Eugène Delacroix</string>
+    <string name="artist6">Jacques-Louis David</string>
+    <string name="artist7">Edward Hopper</string>
+    <string name="artist8">Vincent Van Gogh</string>
+    <string name="artist9">Caspar David Friedrich</string>
+    <string name="artist10">Raja Ravi Varma</string>
+    <string name="mona_lisa_summary">Leonardo da Vinci\'s Mona Lisa (c. 1503–1519) is a half-length portrait, famous for its enigmatic subject\'s faint smile. It is considered an archetypal masterpiece of the Italian Renaissance.</string>
+    <string name="creation_of_adam_summary">Michelangelo\'s Creation of Adam (1508–1512), a fresco on the Sistine Chapel ceiling, depicts God giving life to Adam, the first man. It\'s celebrated for its dynamic composition and profound symbolism.</string>
+    <string name="girl_with_pearl_earring_summary">Girl with a Pearl Earring (c. 1665) is a captivating portrait known for its luminous use of light and the mysterious gaze of the girl. It\'s often called the "Mona Lisa of the North."</string>
+    <string name="great_wave_summary">Hokusai\'s The Great Wave off Kanagawa (c. 1831) is a woodblock print from his Thirty-six Views of Mount Fuji series. Its dynamic composition and vivid colors capture the power and beauty of nature.</string>
+    <string name="liberty_leading_summary">Liberty Leading the People (1830) commemorates the July Revolution in France. It depicts a woman personifying Liberty leading the people over barricades, holding the French flag high.</string>
+    <string name="napoleon_crossing_summary">Napoleon Crossing the Alps (1801) portrays Napoleon Bonaparte on horseback, leading his army through the Alps. It\'s a heroic and idealized depiction of the French leader.</string>
+    <string name="nighthawks_summary">Nighthawks (1942) captures the loneliness and isolation of urban life. It depicts people in a late-night diner, bathed in the eerie glow of artificial light.</string>
+    <string name="starry_night_summary">Vincent van Gogh\'s The Starry Night (1889) is a swirling, expressive depiction of the view from his asylum window in Saint-Rémy-de-Provence. It\'s known for its vibrant colors and dreamlike atmosphere.</string>
+    <string name="wanderer_summary">Wanderer above the Sea of Fog (c. 1818) shows a man standing on a rocky precipice, gazing out at a vast landscape shrouded in fog. It\'s a powerful image of contemplation and the sublime.</string>
+    <string name="hamsa_damayanti_summary">Raja Ravi Varma\'s Hamsa Damayanti (1906) depicts a scene from the Hindu epic Mahabharata, where Princess Damayanti is visited by the swan messenger, Hamsa. It\'s known for its vibrant colors and detailed depiction of Indian attire and jewelry.</string>
+
+
+
+
+</resources>
