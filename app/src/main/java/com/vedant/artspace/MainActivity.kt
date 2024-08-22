@@ -110,7 +110,7 @@ fun ArtImageAndText(title: Int, artist: Int, drawableResource: Int, artDescripti
     Row(modifier = Modifier.fillMaxWidth().padding(bottom = 16.dp), verticalAlignment = Alignment.Bottom, horizontalArrangement = Arrangement.SpaceEvenly){
 
         Button(onClick = OnPreviousClick, shape = RoundedCornerShape(16.dp),
-            colors = ButtonDefaults.buttonColors(containerColor = Color.LightGray),
+            colors = ButtonDefaults.buttonColors(containerColor = Color.LightGray, contentColor = Color.Black),
             modifier = Modifier
         ) {
             Text(text = "Previous")
@@ -119,7 +119,7 @@ fun ArtImageAndText(title: Int, artist: Int, drawableResource: Int, artDescripti
         Button(
             onClick = OnNextClick,
             shape = RoundedCornerShape(16.dp),
-            colors = ButtonDefaults.buttonColors(containerColor = Color.LightGray),
+            colors = ButtonDefaults.buttonColors(containerColor = Color.LightGray, contentColor = Color.Black),
             modifier = Modifier
         ) {
             Text(text = "Next")
